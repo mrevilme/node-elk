@@ -4,9 +4,13 @@ Node.js library to interact with 46elks messaging service.
 
 ## Usage
 
-First, include and create an instance with your username and password.
+First, install the npm package.
 
-	var Elk = require("./lib/elk").Elk;
+	$ npm install elk
+
+Then, include and create an instance with your username and password.
+
+	var Elk = require("elk").Elk;
 
 	var instance = new Elk({
   	  username  : "USER",
