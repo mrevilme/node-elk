@@ -3,13 +3,30 @@
   "name": "elk",
   "description": "Library to interact with 45elks.com messaging service.",
   "version": "0.0.0",
+  "maintainers": [{
+    "name": "Douglas Cau",
+    "email": "douglas@cau.se"
+  }],
+  "keywords": [
+    "mms",
+    "sms"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/cau/node-elk.git"
   },
+  "bugs": {
+    "web": "http://github.com/cau/node-elk/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/cau/node-elk/blob/master/LICENSE"
+    }
+  ],
   "main": "./lib/elk",
   "engines": {
-    "node": "~v0.4.10"
+    "node": ">=0.4.10"
   },
   "dependencies": {},
   "devDependencies": {}
