@@ -25,6 +25,12 @@ Once you have a phone identified by *pid*, sending a text message is easy.
   	  phone.sms("+46701234567", "Test");
 	});
 	
+Curious of all your phone numbers? This will print them all with full details.
+
+	instance.phones(function(error, phones){
+  	  console.log(phones);
+	});
+	
 ## License
 
 Copyright 2011 (c) Douglas Cau.
