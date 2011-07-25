@@ -31,6 +31,13 @@ Curious of all your phone numbers? This will print them all with full details.
   	  console.log(phones);
 	});
 	
+Finally, when you're all done; deactivate the phone number.
+
+	instance.phone(pid, function(error, phone) {
+  	  phone.active = false;
+  	  phone.save();
+	});
+	
 ## License
 
 Copyright 2011 (c) Douglas Cau.
