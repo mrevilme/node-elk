@@ -24,7 +24,7 @@ var instance = new Elk({
 This is how you would allocate a new phone number and save the id to a defined variable *pid*.
 
 ```javascript
-instance.alloc({ country : "se", hook : "#" }, function(error, phone) {
+instance.alloc({ country : "se", sms_url : "http://example.com/hook" }, function(error, phone) {
   pid = phone.id;
 });
 ```
