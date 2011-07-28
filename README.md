@@ -2,15 +2,21 @@
 
 Node.js library to interact with 46elks messaging service.
 
+## Requirement
+
+* Account at 46elks.com
+
 ## Usage
 
-First, install the npm package.
+First, install the npm elk package.
 
 ```
 $ npm install elk
 ```
 
-Then, include and create an instance with your username and password.
+This will download all you need to get started in your ./node_modules/ folder.
+
+Then, in your project, include and create an instance with your username and password.
 
 ```javascript
 var Elk = require("elk").Elk;
@@ -24,7 +30,13 @@ var instance = new Elk({
 This is how you would allocate a new phone number and save the id to a defined variable *pid*.
 
 ```javascript
-instance.alloc({ country : "se", sms_url : "http://example.com/hook" }, function(error, phone) {
+var options = {
+  country      : "se",
+  sms_url      : "http://example.com/sms",
+  voice_start  : "http://example.com/voice"
+};
+
+instance.alloc(options, function(error, phone) {
   pid = phone.id;
 });
 ```
