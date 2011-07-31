@@ -31,6 +31,8 @@
   "directories": {
     "lib": "./lib/elk"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express" : "2.4.3"
+  },
   "devDependencies": {}
 }
