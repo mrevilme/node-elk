@@ -115,6 +115,7 @@ Incoming calls are handled in the same manner, where the call variable is a Call
 instance.on("call", function(call, response) {
   response.send("reject");
 });
+```
 
 ## License
 
