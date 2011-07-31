@@ -97,7 +97,12 @@ var Elk = require("elk").Elk;
 var instance = new Elk({
   username  : "USER",
   password  : "PASS",
-  express   : ExpressInstance
+  express   : ExpressInstance,
+
+  listen : {
+	port : process.env.PORT || 3000,
+	path : "/app"
+  }
 });
 ```
 
