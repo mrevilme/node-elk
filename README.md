@@ -35,8 +35,8 @@ This is how you would allocate a new phone number and save the id to a defined v
 ```javascript
 var options = {
   country      : "se",
-  sms_url      : "http://example.com/sms",
-  voice_start  : "http://example.com/voice"
+  sms_url      : "http://example.com/app/sms",
+  voice_start  : "http://example.com/app/call"
 };
 
 instance.alloc(options, function(error, phone) {
@@ -105,6 +105,8 @@ var instance = new Elk({
   }
 });
 ```
+
+When setting up the phone number, you'll need to point sms_url to example.com/app/sms and voice_start to example.com/app/call.
 
 Once the instance is up and running you can handle incoming messages with an event listener. The message variable is a Message object.
 
