@@ -126,4 +126,4 @@ instance.on("call", function(call, response) {
 
 ## License
 
-Copyright 2011 (c) Douglas Cau. This work is licenced under the MIT license. Please see LICENSE for details.
+Copyright 2011-2012 (c) Douglas Cau. This work is licenced under the MIT license. Please see LICENSE for details.
