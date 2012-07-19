@@ -5,7 +5,6 @@ Node.js library to interact with 46elks messaging service.
 ## Requirement
 
 * Account at 46elks.com
-* Express module for incomming connections.
 
 ## Usage
 
@@ -32,4 +31,4 @@ var operator = new Elk({
 
 ## License
 
-Copyright 2011-2012 (c) Douglas Cau. This work is licenced under the MIT license. Please see LICENSE for details.
+Copyright 2011-2012 (c) Douglas Cau. This work is licensed under the MIT license. Please see LICENSE for details.
