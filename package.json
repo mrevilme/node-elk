@@ -2,7 +2,7 @@
   "author": "Douglas Cau <douglas@cau.se>",
   "name": "elk",
   "description": "Library to interact with 45elks.com messaging service.",
-  "version": "0.0.5",
+  "version": "0.1",
   "maintainers": [{
     "name": "Douglas Cau",
     "email": "douglas@cau.se"
@@ -26,13 +26,10 @@
   ],
   "main": "./lib/elk",
   "engines": {
-    "node": ">=0.4.7"
+    "node": ">=0.8.0"
   },
   "directories": {
     "lib": "./lib/elk"
-  },
-  "dependencies": {
-    "express" : "2.4.3"
   },
   "devDependencies": {}
 }
