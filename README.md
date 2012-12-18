@@ -1,6 +1,6 @@
 # node-elk
 
-Node.js library to interact with 46elks messaging service.
+A Node library to interact with 46elks messaging service
 
 ## Requirement
 
