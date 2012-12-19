@@ -21,7 +21,7 @@ This will download all you need to get started in your ./node_modules/ folder.
 In your project, include and create an instance with your username and password.
 
 ```javascript
-var Elk = require("elk").Elk;
+var Elk = require("elk");
 
 var operator = new Elk({
   username  : "USER",
