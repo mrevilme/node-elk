@@ -31,4 +31,4 @@ var operator = new Elk({
 
 ## License
 
-Copyright 2011-2012 (c) Douglas Cau. This work is licensed under the MIT license. Please see LICENSE for details.
+Copyright 2011-2013 (c) Douglas Cau. This work is licensed under the MIT license. Please see LICENSE for details.
